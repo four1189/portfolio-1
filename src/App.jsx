@@ -10,15 +10,15 @@ function App() {
   return (
     <main id="main">
       <div className="leftPort">
-        <ImageProfile image="/src/assets/react.svg" />
+        <ImageProfile image=": /src/assets/react.svg" />
 
         <Title title="Ratchaphon Chaikaew (Four)">
           <h3>ตำแหน่ง : backend</h3>
         </Title>
 
         <Title title="Contact">
-
-          <p>วันที่ปัจจุบัน: {moment().format("22 03 2567")}</p>
+          
+          <p>Email : Monthqa12@gmail.com</p>
           <p>วันเกิด: {moment("2001/03/01").format("01 03 2544")}</p>
           <p style={{ display: hide ? 'none' : 'block' }} >
             Tel : +6628114668
@@ -26,7 +26,7 @@ function App() {
           <button onClick={() => setHide(!hide)}>
             {hide ? 'Show' : 'Hide'}
           </button>
-          <p>Email : Monthqa12@gmail.com</p>
+          
         </Title>
 
         <Title title="Education">
@@ -37,11 +37,11 @@ function App() {
 
       <div className="rightPort">
         <Title title="Profile">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quas natus soluta debitis nihil placeat, molestiae quae distinctio. Corporis dolores sit similique vitae dignissimos rerum saepe dolorem laboriosam rem impedit.</p>
+          <p>สวัสดีครับ ผมได้สนใจอย่างมากในด้าน Back End และอยากขอโอกาสฝึกงานใน ตำแหน่ง Back End Developer เพื่อเสริมสร้างประสบการณ์ให้กับตัวเอง จากการศึกษาและการเรียนรู้ของผม ตอนนี้ผมมีพื้นฐานในด้านการพัฒนาเว็บไซต์ผมเชื่อว่าการที่ได้ฝึกงานจะช่วยเพิ่มประสบการณ์และทักษะที่จำเป็นให้กับผมเพื่อใช้ในการประกอบอาชีพในอนาคตได้ผมหวังว่าจะได้รับโอกาสในการเข้าร่วมฝึกงานกับทีมของพี่ ๆ เพื่อพัฒนาทักษะและเป็นส่วนหนึ่งของการสร้างผลงานที่มีคุณภาพในอนาคตครับ</p>
         </Title>
 
         <Title title="Work Experience">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid veritatis eligendi cumque, laborum dolore error at, excepturi eum distinctio iste facere obcaecati natus impedit eaque eveniet nulla? Cupiditate, blanditiis in?</p>
+          <p>สามารถสร้างเว็บไซค์ได้ด้วย vs code ภาษา html/css/js</p>
         </Title>
 
         <Title title="Skills">
