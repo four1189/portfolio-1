@@ -13,21 +13,20 @@ function App() {
         <ImageProfile image="/src/assets/react.svg" />
 
         <Title title="Thanadet Kaewsri (Matt)">
-          <h3>ตำแหน่ง : Frontend</h3>
+          <h3>ตำแหน่ง : backend</h3>
         </Title>
 
         <Title title="Contact">
      
           <p>วันที่ปัจจุบัน: {moment().format("D MMM YYYY")}</p>
-          <p>วันเกิด: {moment("1994/07/01").format("D MMM YYYY")}</p>
+          <p>วันเกิด: {moment("2001/03/01").format("D MMM YYYY")}</p>
           <p style={{ display: hide ? 'none': 'block'}} >
-            Tel : +66877543002
+            Tel : +6628114668
           </p>
           <button onClick={() => setHide(!hide)}>
             {hide ? 'Show': 'Hide'}
           </button>
-          <p>Email : mattssru@gmail.com</p>
-          <p>www.mattssru@gmail.com</p>
+          <p>Email : Monthqa12@gmail.com</p>
         </Title>
     
         <Title title="Education">
@@ -49,8 +48,9 @@ function App() {
           <p>HTML / CSS / JS</p>
           <p>React.js</p>
           <p>Next.js</p>
-          <p>Vue.js</p>
-          <p>Git</p>
+          <p>Vs code</p>
+          <p>Github</p>
+          <p></p>
         </Title>
       </div>
     </main>
