@@ -19,7 +19,7 @@ function App() {
         <Title title="Contact">
 
           <p>วันที่ปัจจุบัน: {moment().format("22 03 2567")}</p>
-          <p>วันเกิด: {moment("2001/03/01").format("22 03 2567")}</p>
+          <p>วันเกิด: {moment("2001/03/01").format("01 03 2544")}</p>
           <p style={{ display: hide ? 'none' : 'block' }} >
             Tel : +6628114668
           </p>
