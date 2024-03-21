@@ -12,26 +12,26 @@ function App() {
       <div className="leftPort">
         <ImageProfile image="/src/assets/react.svg" />
 
-        <Title title="Thanadet Kaewsri (Matt)">
+        <Title title="Ratchaphon Chaikaew (Four)">
           <h3>ตำแหน่ง : backend</h3>
         </Title>
 
         <Title title="Contact">
-     
-          <p>วันที่ปัจจุบัน: {moment().format("D MMM YYYY")}</p>
-          <p>วันเกิด: {moment("2001/03/01").format("D MMM YYYY")}</p>
-          <p style={{ display: hide ? 'none': 'block'}} >
+
+          <p>วันที่ปัจจุบัน: {moment().format("22 03 2567")}</p>
+          <p>วันเกิด: {moment("2001/03/01").format("22 03 2567")}</p>
+          <p style={{ display: hide ? 'none' : 'block' }} >
             Tel : +6628114668
           </p>
           <button onClick={() => setHide(!hide)}>
-            {hide ? 'Show': 'Hide'}
+            {hide ? 'Show' : 'Hide'}
           </button>
           <p>Email : Monthqa12@gmail.com</p>
         </Title>
-    
+
         <Title title="Education">
           <p>ปริญญาตรี สาขาเทคโนโลยีสารสนเทศ</p>
-          <p>มหาวิทยาลัยราชภัฏสวนสุนันทา</p> 
+          <p>มหาวิทยาลัยราชภัฏสวนสุนันทา</p>
         </Title>
       </div>
 
