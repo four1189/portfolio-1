@@ -10,7 +10,7 @@ function App() {
   return (
     <main id="main">
       <div className="leftPort">
-        <ImageProfile image=": /src/assets/react.svg" />
+        <ImageProfile image=":https://drive.google.com/file/d/1jqzaKYjKaEe8a3pGqcZX2CQnCDviZMVY/view?usp=drive_link" />
 
         <Title title="Ratchaphon Chaikaew (Four)">
           <h3>ตำแหน่ง : backend</h3>
